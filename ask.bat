@@ -15,11 +15,11 @@ SET /P note=""
 (
 ECHO [%TIME:~0,5%]
 ECHO [WANT]
-ECHO %want%
+ECHO(%want%
 ECHO [DONE]
-ECHO %done%
+ECHO(%done%
 ECHO [NOTE]
-ECHO %note%
+ECHO(%note%
 ECHO(
 ) >> log\%DATE%.txt
 
